@@ -128,10 +128,9 @@ section.company-jobs-nw .job-conatiner tbody td, section.company-jobs-nw .job-co
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   text-align: left;
+ line-height: 1.50;
 }
- 
- 
- 
+
 .jobProtal .job-conatiner .third-jobinside {
   padding: 0;
   display: flex;
@@ -218,3 +217,14 @@ section.company-jobs-nw .job-conatiner tbody td, section.company-jobs-nw .job-co
 div#field {
     padding-left: 0;
     margin-left: 0px  !important}
+
+.jobProtal .job-conatiner .skill li:before {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #c9c9c9;
+    content: "";
+    left: 5px;
+    border-radius: 50%;
+    bottom: 5px;
+}
