@@ -80,6 +80,7 @@ section.company-jobs-nw .job-conatiner tbody td, section.company-jobs-nw .job-co
   color: #fff;
   padding: 7px 20px 6px;
   border-radius: 2px;
+  border: none;
 }
 .jobProtal.jobs-main .appy_now.apply-now span {
   display: flex !important;
