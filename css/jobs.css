@@ -208,3 +208,13 @@ section.company-jobs-nw .job-conatiner tbody td, section.company-jobs-nw .job-co
   display: flex;
   gap: 10px;
 }
+
+.jobProtal.jobs-main .job-conatiner .job-s:hover {
+    border-color: #4cabd7;
+    transform: scale(1.01);
+    transition: all 0.4s;
+}
+
+div#field {
+    padding-left: 0;
+    margin-left: 0px  !important}
